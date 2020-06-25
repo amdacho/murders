@@ -8,3 +8,4 @@ murders %>% mutate(abb = reorder(abb,rate)) %>%
 
 #open git bash and mkdir figs directory to save barplot
 ggsave("figs/barplot.png")
+#test
